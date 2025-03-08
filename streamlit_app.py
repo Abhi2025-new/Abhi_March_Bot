@@ -1,11 +1,11 @@
-import streamlit as st
+    import streamlit as st
 from openai import OpenAI
 
 # Initialize OpenAI client using Streamlit's secrets
 client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 # Title of the app
-st.title("Health Symptom Checker")
+st.title("Abhi's Health Symptom Checker")
 
 # Initialize session state for chat history
 if "messages" not in st.session_state:
