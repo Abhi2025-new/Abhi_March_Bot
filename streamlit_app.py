@@ -1,4 +1,4 @@
-    import streamlit as st
+import streamlit as st
 from openai import OpenAI
 
 # Initialize OpenAI client using Streamlit's secrets
